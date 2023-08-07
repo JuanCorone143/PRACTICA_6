@@ -1,0 +1,84 @@
+{
+  "lista": {
+    "cabecera": {
+      "dato": {
+        "escuela": {
+          "id": 1,
+          "nombre": "comil"
+        },
+        "adyacencias": {
+          "cabecera": {
+            "dato": {
+              "destino": 2,
+              "peso": 3.0
+            },
+            "siguiente": {
+              "dato": {
+                "destino": 3,
+                "peso": 6.0
+              }
+            }
+          },
+          "tamanio": 2
+        }
+      },
+      "siguiente": {
+        "dato": {
+          "escuela": {
+            "id": 2,
+            "nombre": "la salle"
+          },
+          "adyacencias": {
+            "tamanio": 0
+          }
+        },
+        "siguiente": {
+          "dato": {
+            "escuela": {
+              "id": 3,
+              "nombre": "las marianitas"
+            },
+            "adyacencias": {
+              "cabecera": {
+                "dato": {
+                  "destino": 4,
+                  "peso": 4.0
+                }
+              },
+              "tamanio": 1
+            }
+          },
+          "siguiente": {
+            "dato": {
+              "escuela": {
+                "id": 4,
+                "nombre": "benardo valdiviezo"
+              },
+              "adyacencias": {
+                "tamanio": 0
+              }
+            },
+            "siguiente": {
+              "dato": {
+                "escuela": {
+                  "id": 5,
+                  "nombre": "calazans"
+                },
+                "adyacencias": {
+                  "cabecera": {
+                    "dato": {
+                      "destino": 3,
+                      "peso": 23.0
+                    }
+                  },
+                  "tamanio": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tamanio": 5
+  }
+}
